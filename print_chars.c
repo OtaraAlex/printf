@@ -92,7 +92,7 @@ int print_S(va_list S)
 }
 
 /**
- * return (count);
+ * print_r - return (count);
  * @r: string to print
  *
  * Return: number of chars printed
