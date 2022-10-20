@@ -31,7 +31,5 @@ int print_r(va_list r);
 int print_R(va_list R);
 int _putchar(char c);
 int _strlen(char *s);
-int _puts(char *s);
 int _printf(const char *format, ...);
-static int (*check_for_specifiers(const char *format))(va_list);
 #endif

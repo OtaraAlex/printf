@@ -1,4 +1,5 @@
 #include "main.h"
+static int (*check_for_specifiers(const char *format))(va_list);
 /**
  * _printf - write output to stdout
  *
