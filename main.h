@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct print - structure for printing varoious types
@@ -30,6 +31,5 @@ int print_r(va_list r);
 int print_R(va_list R);
 int _putchar(char c);
 int _strlen(char *s);
-int _puts(char *s);
 int _printf(const char *format, ...);
 #endif
